@@ -8,7 +8,7 @@
     font-style: normal;
     margin: auto;
     min-width: 1270px;
-    max-width: 1400px;
+    max-width: 1500px;
     padding-top: 173.36px;
     padding-left: 121px;
 }
@@ -36,7 +36,8 @@
     margin:0 190px 0 0;
 }
 .s2-div1 img{
-    width: 314px;
+    min-width: 314px;
+    max-width: 414px;
     height: 315px;
 }
 .ellips1{
@@ -89,7 +90,7 @@
     font-style: normal;
     margin: 248px auto 0;
     min-width: 1270px; 
-    max-width: 1400px;
+    max-width: 1500px;
     padding-right: 84px;
     padding-left: 85px;
 
@@ -158,27 +159,26 @@
     background-position: left 32%;
     background-size:410px;
 }
-#s5-div8{
-    position: relative;
-    right: 436px;
-}
 #s5-div8 div{
     background: url("image/section5-div8.jpg");
     background-position: left 32%;
     background-size:410px;
+}
+#s5-empty-div{
+    box-shadow: none;
 }
 .bold-p{
     width: 365px;
     height: 39px;
     font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
+    line-height: 97%;
     margin-left: 20px;
     margin-top: -30px;
 }
 .ligth-p{
     margin-left: 19px;
-    width: 220px;
+    width: 230px;
     height: 63px;
     font-weight: 400;
     font-size: 25px;
