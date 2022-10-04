@@ -1,11 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*-----------------Section 2------------------*/
+
+.section-2{
+    height: 955.36px;
+    font-family: Roboto;
+    font-style: normal;
+    margin: auto;
+    min-width: 1270px;
+    max-width: 1400px;
+    padding-top: 173.36px;
+    padding-left: 121px;
+}
+.section-2 h2{
+    width: 365px;
+    height: 93px;
+    font-family: Roboto Slab ;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0;
+    margin-bottom: 18px;
+}
+.s2-div1{
+    align-items: center;
+    display: flex;
+    margin-bottom: 94px;
+}
+.s2-div1 p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    width: 662px;
+    height: 374px;
+    margin:0 190px 0 0;
+}
+.s2-div1 img{
+    width: 314px;
+    height: 315px;
+}
+.ellips1{
+    width: 366px;
+    height: 59px;
+    background: #EFEFEF;
+    border-radius: 50%;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.s2-div2{
+    display: flex;
+    margin-right: 317px;
+    align-items: center;
+    justify-content: space-between;
+}
+.s2-div2 img{
+    width: 232px;
+    height: 203px;
+    margin-right: 132px;
+}
+.ellips2{
+    background: #EFEFEF;
+    width: 189px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: -16px;
+    margin-left: 30px;
+}
+.s2-bold-p{
+    width: 150px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+.s2-light-p{
+    width: 150px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
+
+/*-----------------Section 5------------------*/
 .section-5{
     font-family: Roboto ;
     font-style: normal;
     margin: 248px auto 0;
     min-width: 1270px; 
-    max-width: 1300px;
+    max-width: 1400px;
     padding-right: 84px;
     padding-left: 85px;
 
