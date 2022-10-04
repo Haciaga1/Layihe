@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.sevinj {
+    font-family: roboto;
+}
+.img-1 {
+    height: 66px;
+    width: 112px;
+    margin-left: 121px;
+    margin-top: 21px;
+    border-radius: 0px;
+}
+
+.icon-1 {
+    height: 21px;
+    width: 22px;
+    margin-left: 121px;
+    margin-top: 184px;
+    border-radius: 0px;
+}
+
+.icons-and-paragraphs {
+display: flex;
+}
