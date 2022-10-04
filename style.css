@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .section-5{
     font-family: Roboto ;
+    font-style: normal;
     margin: 248px auto 0;
     min-width: 1270px; 
     max-width: 1300px;
@@ -31,10 +32,71 @@
     border-radius: 30px;
     margin-bottom: 44px;
 }
-.last-2-div{
-    margin-bottom: 0;
+
+.daxili-divler div{
+    height: 160px;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
-#last-div{
+#s5-div1 div{
+    background: url("image/section5-div1.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div2 div{
+    background: url("image/section5-div2.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div3 div{
+    background: url("image/section5-div3.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div4 div{
+    background: url("image/section5-div4.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div5 div{
+    background: url("image/section5-div5.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div6 div{
+    background: url("image/section5-div6.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div7 div{
+    background: url("image/section5-div7.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+#s5-div8{
     position: relative;
     right: 436px;
+}
+#s5-div8 div{
+    background: url("image/section5-div8.jpg");
+    background-position: left 32%;
+    background-size:410px;
+}
+.bold-p{
+    width: 365px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.ligth-p{
+    margin-left: 19px;
+    width: 220px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
 }
