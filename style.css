@@ -40,6 +40,7 @@
     max-width: 414px;
     height: 315px;
 }
+
 .ellips1{
     width: 366px;
     height: 59px;
@@ -108,6 +109,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.daxili-divler:hover{
+    position: relative;
+    bottom:7px;
+    left: 7px;
+    box-shadow: 3px 3px 15px;
+    
 }
 .s5-div-container div{
     min-width: 399px;
