@@ -194,26 +194,19 @@
 }
 /*-----------------Section 5-nin Sonu------------------*/
 
-/*-----------------Footerin Baslangici------------------*/
-
-
-
-
-
-
-/*-----------------Footerin Sonu------------------*/
-
-
+/*-----------------Section 7-nin Baslangici------------------*/
 .section-7{
     font-family: Roboto;
     font-style: normal;
     box-sizing: border-box;
     min-width: 1440px;
+    max-width: 1500px;
     height: 780px;
     padding: 179px 410px 185px 122px;
     margin: auto;
     background: #9DC9C8;
 }
+
 .section-7 h2{
     width: 908px;
     height: 66px;
@@ -240,16 +233,16 @@
     line-height: 101.38%;
     margin: 0;
 }
-.s7-flex-div{
-    width: 100px;
-    display: flex;
-}
-.s7-flex-div div{
+
+.s7-table{
     margin-top: -26px;
-    margin-right: 70px;
-    justify-content: space-between;
 }
-.s7-p1{
+.s7-table td{
+    padding-right: 70px;
+    width: 294px;
+}
+.s7-table-row1{
+
     width: 294px;
     height: 32px;
     font-weight: 500;
@@ -257,10 +250,10 @@
     line-height: 101.38%;
     margin-bottom: 9px;
 }
-.s7-p2{
-    width: 418px;
+.s7-table-row2{
     height: 70px;
     font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
 }
+/*-----------------Section 7-nin Sonu------------------*/
