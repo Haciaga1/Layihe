@@ -202,3 +202,65 @@
 
 
 /*-----------------Footerin Sonu------------------*/
+
+
+.section-7{
+    font-family: Roboto;
+    font-style: normal;
+    box-sizing: border-box;
+    min-width: 1440px;
+    height: 780px;
+    padding: 179px 410px 185px 122px;
+    margin: auto;
+    background: #9DC9C8;
+}
+.section-7 h2{
+    width: 908px;
+    height: 66px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-top: 0;
+    margin-bottom: 54px;
+}
+.section-7 p:nth-child(2){
+    width: 170px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin:0;
+}
+.section-7 p:nth-child(3){
+    width: 481px;
+    height: 181px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin: 0;
+}
+.s7-flex-div{
+    width: 100px;
+    display: flex;
+}
+.s7-flex-div div{
+    margin-top: -26px;
+    margin-right: 70px;
+    justify-content: space-between;
+}
+.s7-p1{
+    width: 294px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin-bottom: 9px;
+}
+.s7-p2{
+    width: 418px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
