@@ -1,0 +1,162 @@
+.blue {
+    font-size: 25px;
+    color: rgba(30, 70, 129, 1);
+    font-family: Pass Thour;
+}
+
+.div1 {
+    width: 223px;
+    float: left;
+    margin-right: 25px;
+
+}
+
+.all {
+    margin-left: 70px;
+
+
+}
+
+.p1 {
+    font-family: Pass Thour;
+    font-size: 18px;
+    width: 200px;
+    height: 39px;
+}
+
+.divid1 {
+    font-family: Pass Thour;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+
+.divid2 {
+    padding-top: 1px;
+    font-size: 15px;
+    font-family: Pass Thour;
+    float: left;
+    margin-right: 35px;
+}
+
+.divid2 h1 {
+    color: rgba(30, 70, 129, 1);
+}
+
+.divclass2 {
+    float: left;
+}
+
+.p2 {
+    width: 270px;
+    height: 109px;
+    font-family: Pass Thour;
+    font-size: 18px;
+}
+
+.divid3 {
+    width: 200px;
+    font-size: 15px;
+    font-family: Pass Thour;
+    float: left;
+
+}
+
+.divid3 h1 {
+    color: rgba(30, 70, 129, 1);
+}
+
+.p3 {
+    width: 245px;
+    height: 39px;
+    font-family: Pass Thour;
+    font-size: 18px;
+}
+
+
+.idalt1 {
+    font-family: Pass Thour;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 250px;
+    width: 662px;
+}
+
+@media only screen and (max-width: 1279px){
+.div1{
+    float: left;
+}
+.divid2{
+    float: left;
+}
+.divid3{
+    float: left;
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) { 
+    .divid1 {
+        margin-left: -36px;
+
+        margin-right: 28.2px;
+
+    }
+
+    .div1 {
+
+        margin-left: -36px;
+        float: left;
+        font-family: 'Roboto';
+    }
+
+    .divid2 {
+        margin-left: -36px;
+        float: left;
+        font-family: 'Roboto';
+    }
+
+    .divid3 {
+        margin-left: -36px;
+        float: left;
+        font-family: 'Roboto';
+    }
+
+    .idalt1 {
+
+        float: left;
+        position: absolute;
+        margin-top: 500px;
+    }
+
+    .divid3 {
+
+        position: absolute;
+        margin-top: 280px;
+    }
+
+    .idalt1 {
+        width: 299px;
+        height: 174px;
+        position: absolute;
+        font-family: 'Roboto';
+
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 400px;
+
+
+    }
+
+    .idalt1 h1 {
+        margin-left: -36px;
+        font-size: 36px;
+    }
+
+    .idalt1 li {
+        margin-left: -36px;
+        line-height: 150%;
+        font-size: 19.8px;
+    }
+}
