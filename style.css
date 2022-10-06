@@ -82,6 +82,11 @@
     font-size: 18px;
     line-height: 130%;
 }
+/*------------------Section-2 Tablet mode---------------*/
+@media (max-width: 1279px) and (min-width: 992px){
+    
+}
+
 /*-----------------Section 2-nin Sonu------------------*/
 
 
