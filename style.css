@@ -3,7 +3,6 @@
 /*-----------------Section 2-nin Baslangici------------------*/
 
 .section-2{
-    height: 955.36px;
     font-family: Roboto;
     font-style: normal;
     margin: auto;
@@ -26,6 +25,7 @@
     align-items: center;
     display: flex;
     margin-bottom: 94px;
+
 }
 .s2-div1 p{
     font-weight: 400;
@@ -35,9 +35,9 @@
     height: 374px;
     margin:0 190px 0 0;
 }
+
 .s2-div1 img{
-    min-width: 314px;
-    max-width: 414px;
+    width: 314px;
     height: 315px;
 }
 
@@ -84,10 +84,74 @@
 }
 /*------------------Section-2 Tablet mode---------------*/
 @media (max-width: 1279px) and (min-width: 992px){
-    
+    .section-2{
+        margin: auto;
+        min-width: 992px;
+        max-width: 1270px;
+        padding-top: 173.36px;
+        padding-left: 70.08px;
+    }
+    .s2-div1{
+        margin-bottom: 54px;
+    }
+    .section-2 h2{
+        width: 211.4px;
+        height: 53.86px;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 10.42px;
+    }
+    .s2-div1 p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        width: 383.41px;
+        height: 216.61px;
+        margin:0 110.04px 0 0;
+    }
+    .s2-div1 img{
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .ellips1{
+        width: 211.98px;
+        height: 34.17px;
+        margin-top: -18px;
+        margin-left: -15px;
+    }
+    .s2-div2 img{
+        width: 134.37px;
+        height: 117.57px;
+        margin-right: 76.45px;
+    }
+    .ellips2{
+        width: 109.46px;
+        height: 18.53px;
+        margin-top: -15px;
+        margin-left: 19px;
+    }
+    .s2-div2{
+        width: 60%;
+        margin-right: 500px;
+    }
+    .s2-bold-p{
+        width: 86.88px;
+        height: 22.59px;
+        font-size: 25px;
+        font-size: 15px;
+        margin-bottom: 0.18px;
+    }
+    .s2-light-p{
+        margin: 0;
+        width: 86.88px;
+        height: 22.59px;
+        font-size: 11px;
+    }
 }
+/*------------------Section-2 Tablet mode Bitdi---------------*/
 
 /*-----------------Section 2-nin Sonu------------------*/
+
 
 
 /*-----------------Section 5-nin Baslangici------------------*/
@@ -95,11 +159,11 @@
     font-family: Roboto ;
     font-style: normal;
     margin: 248px auto 0;
-    min-width: 1270px; 
+    min-width: 1270px;
     max-width: 1500px;
     padding-right: 84px;
     padding-left: 85px;
-
+    padding-bottom: 121px;
 }
 .section-5 h2{
     font-family: Roboto Slab ;
@@ -113,7 +177,10 @@
 .s5-div-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
 }
 .daxili-divler:hover{
     position: relative;
@@ -122,8 +189,10 @@
     box-shadow: 3px 3px 15px;
     
 }
+
 .s5-div-container div{
-    width: 399px;
+    width: 100%;
+    max-width: 399px;
     height: 328px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -136,6 +205,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
 #s5-div1 div{
     background: url("image/section5-div1.jpg");
     background-position: left 32%;
@@ -180,8 +250,6 @@
     box-shadow: none;
 }
 .bold-p{
-    width: 365px;
-    height: 39px;
     font-weight: 700;
     font-size: 30px;
     line-height: 97%;
@@ -191,12 +259,101 @@
 .ligth-p{
     margin-left: 19px;
     width: 230px;
-    height: 63px;
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
 }
+@media (max-width: 1410px) and (min-width: 1280px){
+    .section-5{
+        padding-left: 80px;
+    }
+    .s5-div-container{
+        justify-content: flex-start;
+    }
+    .s5-div-container>div{
+        width: 355px;
+        height: 310px;
+        margin: 20px 13px;
+    }
+    #s5-div1, #s5-div2, #s5-div3{
+        margin-top: 0;
+    }
+    #s5-div6 .ligth-p, #s5-div8 .ligth-p{
+        margin-top: -25px;
+    }
+    #s5-div1 div,#s5-div2 div,#s5-div3 div,#s5-div4 div,#s5-div5 div,#s5-div6 div,#s5-div7 div,#s5-div8 div{
+        background-size:360px;
+    }
+}
+/*-----------------Section 5 Tablet mode------------------*/ 
+@media (max-width: 1279px) and (min-width: 992px){
+    .section-5{
+        width: 100%;
+        min-width: 992px;
+        max-width: 1270px;
+        margin: 143.63px auto 0;
+        padding-left: 48.65px;
+        padding-right: 49.23px;
+        padding-bottom: 52.6px;
+    }
+    .section-5 h2{
+        height: 53.86px;
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-left: 21.43px;
+        margin-bottom: 52.02px;
+    }
+    .s5-div-container{
+        max-width: 740px;
+        justify-content: space-between;
+        margin: 0;
+        
+    }
+    .s5-div-container div{
+        width: 231.09px;
+        height: 189.97px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 23.75px;
+        margin-right: 21.43;
+        border-radius: 17.375px;
+    }
+    .daxili-divler div{
+        height: 92.67px;
+        box-shadow: none;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .bold-p{
+        margin-left: 14px;
+        margin-top: -19px;
+        margin-bottom: 32px;
+        font-size: 17px;
+        line-height: 130%;
+    }
+    .ligth-p{
+        margin-left: 14px;
+        margin-top: -10px;
+        font-size: 14px;
+        line-height: 130%;
+        width: 150.4px;
+        height: 36.49px;
+    }
+    #s5-div8 .bold-p{
+        line-height: 18px;
+    }
+    #s5-div8 .ligth-p{
+        margin-top: -24px;
+    }
+    #s5-div1 div,#s5-div2 div,#s5-div3 div,#s5-div4 div,#s5-div5 div,#s5-div6 div,#s5-div7 div,#s5-div8 div{
+        background-size:240px;
+    }
+}
+/*-----------------Section 5 Tablet mode Bitdi------------------*/ 
+
+
 /*-----------------Section 5-nin Sonu------------------*/
+
 
 /*-----------------Section 7-nin Baslangici------------------*/
 .section-7{
