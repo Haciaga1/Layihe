@@ -770,6 +770,7 @@
 }
 /*-----------------Footer Tablet mode Bitdi------------------*/
 
+/*-----------------Footer Phone mode------------------*/
 @media (max-width: 844px){
     .footer-container{
         display: block;
@@ -828,7 +829,5 @@
         height: 23.17px;
     }
 }
-
-
-
+/*-----------------Footer Phone mode Bitdi------------------*/
 /*-----------------Footerin Sonu------------------*/
