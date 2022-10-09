@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*-----------------Section 2-nin Baslangici------------------*/
-
 .section-2{
     font-family: Roboto;
     font-style: normal;
     margin: auto;
-    min-width: 1270px;
+    min-width: 1200px;
     max-width: 1500px;
     padding-top: 173.36px;
     padding-left: 121px;
@@ -24,7 +23,7 @@
 .s2-div1{
     align-items: center;
     display: flex;
-    margin-bottom: 94px;
+    margin-bottom: 134px;
 
 }
 .s2-div1 p{
@@ -39,6 +38,7 @@
 .s2-div1 img{
     width: 314px;
     height: 315px;
+    margin-right: 153px;
 }
 
 .ellips1{
@@ -51,6 +51,7 @@
 }
 .s2-div2{
     display: flex;
+    width: 70%;
     margin-right: 317px;
     align-items: center;
     justify-content: space-between;
@@ -74,6 +75,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
+    margin-bottom: -17px;
 }
 .s2-light-p{
     width: 150px;
@@ -83,11 +85,11 @@
     line-height: 130%;
 }
 /*------------------Section-2 Tablet mode---------------*/
-@media (max-width: 1279px) and (min-width: 834px){
+@media (max-width: 1279px) and (min-width: 844px){
     .section-2{
         margin: auto;
-        min-width: 992px;
-        max-width: 1270px;
+        min-width: 834px;
+        max-width: 900px;
         padding-top: 173.36px;
         padding-left: 70.08px;
     }
@@ -97,7 +99,6 @@
     .section-2 h2{
         width: 211.4px;
         height: 53.86px;
-        font-weight: 700;
         font-size: 32px;
         margin-bottom: 10.42px;
     }
@@ -131,7 +132,7 @@
         margin-left: 19px;
     }
     .s2-div2{
-        width: 60%;
+        width: 70%;
         margin-right: 500px;
     }
     .s2-bold-p{
@@ -143,12 +144,76 @@
     }
     .s2-light-p{
         margin: 0;
-        width: 86.88px;
+        width: 90.23px;
         height: 22.59px;
         font-size: 11px;
     }
 }
 /*------------------Section-2 Tablet mode Bitdi---------------*/
+
+/*------------------Section-2 Phone mode---------------*/
+@media (max-width: 844px){
+    .section-2{
+        margin: auto;
+        max-width: 834px;
+        min-width: 320px;
+        padding-top: 75.06px;
+        padding-left: 36px;
+    }
+    .section-2 h2{
+        width: 170.08px;
+        height: 43.34px;
+        font-size: 26px;
+        margin-bottom: 8.39px;
+    }
+    .s2-div1{
+        display: block;
+        margin-bottom: 0;
+    }
+    .s2-div1 p{
+        font-size: 12px;
+        width: 308.47px;
+        height: 174.27px;
+        margin-bottom: 56px;
+    }
+    .s2-div1 img{
+        margin: 0;
+        width: 170.55px;
+        height: 160.29px;
+    }
+    .image-div{
+        margin-left: 65px;
+    }
+    .ellips1{
+        width: 201.98px;
+        height: 32.17px;
+        margin-top: -21px;
+        margin-left: -15px;
+    }
+    .s2-div2 img, .ellips2{
+        display: none;
+    }
+    .s2-div2{
+        max-width: 175px;
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    
+    .s2-bold-p{
+        margin-top: 45.71px;
+        margin-bottom: 0.83px;
+        width: 69.9px;
+        height: 18.17px;
+        font-size: 12px;
+    }
+    .s2-light-p{
+        margin-top: 0.83px;
+        width: 83px;
+        height: 18px;
+        font-size: 10px;
+    }    
+}
+/*------------------Section-2 Phone mode Bitdi---------------*/
 
 /*-----------------Section 2-nin Sonu------------------*/
 
@@ -263,7 +328,7 @@
     font-size: 25px;
     line-height: 130%;
 }
-@media (max-width: 1410px) and (min-width: 1280px){
+@media (max-width: 1410px) and (min-width: 1279px){
     .section-5{
         padding-left: 80px;
     }
@@ -286,11 +351,11 @@
     }
 }
 /*-----------------Section 5 Tablet mode------------------*/ 
-@media (max-width: 1279px) and (min-width: 834px){
+@media (max-width: 1279px) and (min-width: 844px){
     .section-5{
         width: 100%;
-        min-width: 992px;
-        max-width: 1270px;
+        min-width: 834px;
+        max-width: 900px;
         margin: 143.63px auto 0;
         padding-left: 48.65px;
         padding-right: 49.23px;
@@ -304,8 +369,8 @@
         margin-bottom: 52.02px;
     }
     .s5-div-container{
-        max-width: 740px;
-        justify-content: space-between;
+        max-width: 760px;
+        justify-content: space-around;
         margin: 0;
         
     }
@@ -325,15 +390,14 @@
         border-bottom-right-radius: 0;
     }
     .bold-p{
-        margin-left: 14px;
+        margin-left: 11.58px;
         margin-top: -19px;
-        margin-bottom: 32px;
         font-size: 17px;
         line-height: 130%;
     }
     .ligth-p{
-        margin-left: 14px;
-        margin-top: -10px;
+        margin-left: 11.58px;
+        margin-top: 18.53px;
         font-size: 14px;
         line-height: 130%;
         width: 150.4px;
@@ -343,13 +407,66 @@
         line-height: 18px;
     }
     #s5-div8 .ligth-p{
-        margin-top: -24px;
+        margin-top: -10px;
     }
     #s5-div1 div,#s5-div2 div,#s5-div3 div,#s5-div4 div,#s5-div5 div,#s5-div6 div,#s5-div7 div,#s5-div8 div{
         background-size:240px;
     }
 }
 /*-----------------Section 5 Tablet mode Bitdi------------------*/ 
+
+/*----------------Section 5 Phone mode-----------------*/
+@media (max-width: 843px){
+    .section-5{
+        height: 1540px;
+        margin: 0;
+        width: 40%;
+        max-width: 834px;
+        min-width: 320px;
+        padding: 0;
+    }
+    .section-5 h2{
+        margin-bottom: 36.66px;
+        width: 421.7px;
+        height: 43.34px;
+        font-size: 26px;
+    }
+    .s5-div-container{
+        max-width: 280px;
+        max-width: 370px;
+    }
+    .s5-div-container div{
+        margin-left: auto;
+        margin-right: auto;
+        width: 185.92px;
+        height: 152.84px;
+        margin-bottom: 24.16px;
+        border-radius: 13.9792px;
+    }
+    .daxili-divler div{
+        height: 48%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .bold-p{
+        margin-top: -15px;
+        margin-left: 9.32px;
+        width: 170.08px;
+        height: 18.17px;
+        font-size: 14px;
+    }
+    .ligth-p{
+        margin-top: -3px;
+        margin-left: 9.32px;
+        font-size: 12px;
+        width: 170.08px;
+        height: 29.36px;
+    }
+    #s5-div1 div,#s5-div2 div,#s5-div3 div,#s5-div4 div,#s5-div5 div,#s5-div6 div,#s5-div7 div,#s5-div8 div{
+        background-size:187px;
+    }
+}
+/*--------------- Section 5 Phone mode Bitdi------------*/
 /*-----------------Section 5-nin Sonu------------------*/
 
 
@@ -358,7 +475,7 @@
     font-family: Roboto;
     font-style: normal;
     box-sizing: border-box;
-    min-width: 1440px;
+
     max-width: 1500px;
     height: 780px;
     padding: 179px 410px 185px 122px;
@@ -415,10 +532,10 @@
     line-height: 101.38%;
 }
 /*-----------------Section 7 Tablet mode------------------*/
-@media (max-width: 1279px) and (min-width: 834px){
+@media (max-width: 1279px) and (min-width: 844px){
     .section-7{
         width: 100%;
-        max-width: 1250px;
+        max-width: 900px;
         min-width: 834px;
         height: 780px;
         padding: 103.67px 237.46px 107.15px 70.66px;
@@ -457,6 +574,54 @@
 }
 /*-----------------Section 7 Tablet mode Bitdi------------------*/
 
+/*-----------------Section 7 Phone mode----------------*/
+@media (max-width: 844px){
+    .section-7{
+        width: 100%;
+        height: 363px;
+        max-width: 834px;
+        min-width: 320px;
+        padding-top: 62px;
+        padding-left: 33px;
+        padding-right: 0;
+    }
+    .section-7 h2{
+        width: 224px;
+        height: 63px;
+        font-size: 26px;
+        margin-bottom: 22.33px;
+    }
+    .section-7 p:nth-child(2){
+        width: 79.22px;
+        height: 14.91px;
+        font-size: 12px;
+    }
+    .section-7 p:nth-child(3){
+        width: 224.13px;
+        height: 84.34px;
+        font-size: 37px;
+    }
+    .s7-table{
+        width: 343px;
+        height: 66.7px;
+    }
+
+    .s7-table td{
+        padding-right: 31.16px;
+        width: 137px;
+        }
+    .s7-table-row1{
+        width: 137px;
+        height: 14.91px;
+        font-size: 12px;
+        }
+    .s7-table-row2{
+        width: 137px;
+        height: 47px;
+        font-size: 10px;
+        }
+}
+/*-----------------Section 7 Phone mode Bitdi----------------*/
 /*-----------------Section 7-nin Sonu------------------*/
 
 /*-----------------Footerin Baslangici------------*/
@@ -547,9 +712,9 @@
 }
 
 /*-----------------Footer Tablet mode------------------*/
-@media (max-width: 1279px) and (min-width: 834px){
+@media (max-width: 1279px) and (min-width: 844px){
     .footer-container{
-        max-width: 1250px;
+        max-width: 900px;
         min-width: 834px;
         height: 225.88px;
         padding-top: 28.96px;
@@ -604,6 +769,66 @@
     }
 }
 /*-----------------Footer Tablet mode Bitdi------------------*/
+
+@media (max-width: 844px){
+    .footer-container{
+        display: block;
+        width: 100%;
+        height: 246px;
+        max-width: 834px;
+        min-width: 320px;
+        padding-top: 23.3px;
+        padding-left: 37.85px;
+    }
+    .footer-Logo1{
+        width: 53.59px;
+        height: 31.69px;
+        margin-bottom: 13.98px;
+    }
+    #insta{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 8.39px;
+    }
+    #fb{
+        width: 14.91px;
+        height: 14.91px;
+        margin-right: 9.78px;
+    }
+    #wk{
+        width: 16.31px;
+        height: 16.31px;;
+        margin-right: 11.65px;
+    }
+    #wp{
+        width: 15.84px;
+        height: 15.84px;
+    }
+    .footer-table{
+        margin-top: -130px;
+        font-size: 14px;
+    }
+    .footer-div1 p{
+        margin-top: 105.66px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+    #phone{
+        margin-right: 10.25px;
+        width: 12.58px;
+        height: 12.58px;
+    }
+    #mail{
+        margin-right: 10.25px;
+        width: 12.58px;
+        height: 8.39px;
+    }
+    .footer-table tr{
+        width: 133.21px;
+        height: 23.17px;
+    }
+}
+
 
 
 /*-----------------Footerin Sonu------------------*/
