@@ -214,9 +214,145 @@
     }    
 }
 /*------------------Section-2 Phone mode Bitdi---------------*/
-
 /*-----------------Section 2-nin Sonu------------------*/
 
+/*-----------------Section 3 ve 4-un Baslangici------------------*/
+.section-3-4{
+    min-width: 1270px;
+    max-width: 1500px;
+    width: 100%;
+    margin: 162px auto 0;
+    padding-left: 121px;
+    font-family: Roboto;
+    font-style: normal;
+}
+.section-3-4 h2{
+    font-family: Roboto Slab;
+    width: 667px;
+    height: 93px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 89px;
+}
+.section-3-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.s3-blue-p{
+    color: #1E4681;
+    width: 224px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+.s3-p{
+    width: 300px;
+    height: 109px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: -22px;
+}
+.section4-div h2{
+    margin-top: 249px;
+    margin-bottom: 21px;
+}
+.section4-div ul{
+    width: 650px;
+    height: 335px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 287px;
+}
+/*-----------------Section 3 ve 4 Tablet mode------------------------*/
+@media (max-width: 1279px) and (min-width: 844px){
+    .section-3-4{
+        min-width: 834px;
+        max-width: 900px;
+        padding-left: 70.08px;
+    }
+    .section-3-4 h2{
+        font-size: 32px;
+        width: 386.3px;
+        height: 53.86px;
+        margin-bottom: 51.55px;
+    }
+    .section-3-div{
+        display: flex;
+        justify-content: space-between;
+        max-width: 585px;
+    }
+    .s3-blue-p{
+        width: 123.94px;
+        height: 22.59px;
+        font-size: 15px;
+    }
+    .s3-p{
+        width: 172px;
+        height: 63px;
+        font-size: 11px;
+        margin-top: -15px;
+    }
+    .section4-div h2{
+        margin-top: 144.55px;
+        margin-bottom: 12.16px;
+    }
+    .section4-div ul{
+        margin-left: -23px;
+        width: 383.41px;
+        height: 216.61px;
+        font-size: 14px;
+        margin-bottom: 143.63px;
+    }
+}
+/*-----------------Section 3 ve 4 Tablet mode Bitdi------------------------*/
+
+/*-----------------Section 3 ve 4 Phone mode------------------------*/
+@media (max-width: 843px){
+    .section-3-4{
+        padding-left: 36px;
+        max-width: 834px;
+        min-width: 320px;
+        margin-top: 76px;
+    }
+    .section-3-4 h2{
+        width: 310.8px;
+        height: 43.34px;
+        font-size: 26px;
+        margin-bottom: 16.66px;
+    }
+    .section-3-div{
+        display: block;
+    }
+    .s3-blue-p{
+
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+    .s3-p{
+        width: 180px;
+        height: 48px;
+        font-size: 10px;
+    }
+    .section4-div h2{
+        margin-top: 73px;
+        margin-bottom: 9.66px;
+    }
+    .section4-div ul{
+        margin-left: -23px;
+        width: 299px;
+        height: 174px;
+        font-size: 12px;
+        margin-bottom: 85px;
+    }
+}
+
+/*-----------------Section 3 ve 4 Phone mode Bitdi------------------------*/
+/*-----------------Section 3 ve 4-un Sonu------------------------*/
 
 
 /*-----------------Section 5-nin Baslangici------------------*/
